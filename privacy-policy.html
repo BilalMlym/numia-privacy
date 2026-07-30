@@ -76,31 +76,39 @@
       privacy policies. If you are not signed in, nothing is submitted.
     </p>
 
-    <h2>2. Advertising (Yandex Advertising Network)</h2>
+    <h2>2. Advertising (Appodeal)</h2>
     <p>
-      The App displays ads provided by the <strong>Yandex Advertising Network</strong>. We do not
+      The App displays ads through <strong>Appodeal</strong>, an ad mediation platform. We do not
       use Google AdMob or any Google advertising service.
     </p>
-    <div class="highlight">
-      <p>
-        <strong>Ads in NUMIA are non-personalised.</strong> We instruct the Yandex SDK not to
-        collect personal data for ad targeting, for every user in every country. Your activity is
-        not tracked across other companies' apps and websites, no advertising profile is built
-        about you, and no advertising identifier is used to target ads to you.
-      </p>
-    </div>
+    <p>
+      Appodeal runs a real-time auction between several advertising networks and shows the
+      winning ad. The networks that may take part include Amazon, AppLovin, BidMachine, Bigo Ads,
+      DT Exchange, InMobi, ironSource, Mintegral, Unity Ads, VK Ads and Vungle. Each network
+      processes data under its own privacy policy.
+    </p>
     <p style="margin-top:12px">
-      To deliver and measure an ad at all, Yandex may still process limited technical
-      information such as:
+      To deliver, cap and measure an ad, these companies may process:
     </p>
     <ul>
+      <li>Your device's advertising identifier (IDFA on iOS, Advertising ID on Android)</li>
       <li>Device model, operating system version, and language settings</li>
       <li>IP address (used for coarse regional ad delivery and fraud prevention)</li>
       <li>Whether an ad was displayed, clicked, or completed</li>
     </ul>
+    <div class="highlight">
+      <p>
+        <strong>On iOS, whether ads are personalised is entirely your choice.</strong> If you
+        decline the tracking prompt described in section 3, your advertising identifier is not
+        made available and you will see non-personalised ads. On Android you can achieve the same
+        result with "Delete advertising ID" or "Opt out of Ads Personalisation" in system
+        settings (see section 5).
+      </p>
+    </div>
     <p style="margin-top:12px">
-      This data is processed by Yandex, not by us, in accordance with their policy:<br/>
-      <a href="https://yandex.com/legal/confidential/" target="_blank">https://yandex.com/legal/confidential/</a>
+      This data is processed by Appodeal and its partner networks, not by us, in accordance with
+      Appodeal's policy:<br/>
+      <a href="https://www.appodeal.com/privacy-policy/" target="_blank">https://www.appodeal.com/privacy-policy/</a>
     </p>
     <p style="margin-top:12px">
       Ad formats are limited to a <strong>banner</strong> and an optional <strong>rewarded
@@ -110,9 +118,19 @@
 
     <h2>3. App Tracking Transparency (iOS)</h2>
     <p>
-      <strong>The App does not ask for App Tracking Transparency permission.</strong> Because ads
-      are non-personalised and we do not access your device's advertising identifier (IDFA), there
-      is no tracking to request permission for. You will not see a tracking prompt in NUMIA.
+      On iOS, the App asks for your permission before it uses your device's advertising
+      identifier (IDFA), using Apple's <strong>App Tracking Transparency</strong> prompt.
+    </p>
+    <ul>
+      <li><strong>If you allow it</strong>, the identifier is used to select ads that are more
+        relevant to you and to measure how those ads perform.</li>
+      <li><strong>If you decline</strong>, the identifier is not used, ads become
+        non-personalised, and the App works exactly the same in every other respect.</li>
+    </ul>
+    <p style="margin-top:12px">
+      The identifier is never linked to your name, email address, or your game progress and
+      scores. You can change your choice at any time in
+      <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em> on your device.
     </p>
 
     <h2>4. In-App Purchases</h2>
@@ -130,8 +148,8 @@
 
     <h2>5. Additional Ad Controls</h2>
     <p>
-      Ads are already non-personalised for everyone, so no opt-out is required. If you would like
-      to further limit advertising data on your device, you can:
+      Beyond the iOS prompt described in section 3, you can limit advertising data on your device
+      at any time:
     </p>
     <ul>
       <li><strong>iOS:</strong> Settings → Privacy &amp; Security → Tracking → turn off "Allow Apps to Request to Track"</li>
@@ -153,14 +171,16 @@
       directly — there is simply no data we hold about you.
     </p>
     <p style="margin-top:10px">
-      No consent dialog is shown in the App because no personal data is collected for advertising
-      purposes: ads are served in non-personalised mode for all users, including those in the EEA,
-      the UK, and Switzerland.
+      If you are in the EEA, the UK, or Switzerland, the App shows a consent dialog the first
+      time it runs, provided by Appodeal's consent management platform. Your choice there
+      determines whether advertising data may be processed on a consent basis. You can review or
+      withdraw that choice at any time from <em>Settings &gt; Manage consent</em> inside the App,
+      as required by Article 7(3) GDPR.
     </p>
     <p style="margin-top:10px">
-      For data processed by <strong>Yandex</strong> on your device, you can exercise your rights
-      directly with Yandex:<br/>
-      <a href="https://yandex.com/legal/confidential/" target="_blank">Yandex Privacy Policy</a>
+      For data processed by <strong>Appodeal</strong> and its partner networks, you can exercise
+      your rights directly with Appodeal:<br/>
+      <a href="https://www.appodeal.com/privacy-policy/" target="_blank">Appodeal Privacy Policy</a>
     </p>
     <p style="margin-top:10px">
       You also have the right to lodge a complaint with your local data protection authority (DPA).
@@ -168,10 +188,16 @@
 
     <h2>8. Your Rights — U.S. State Privacy Laws (CCPA/CPRA &amp; others)</h2>
     <p>
-      NUMIA does not operate servers and does not collect personal information. Because ads are
-      non-personalised and no advertising identifier is used for targeting, we do not "sell" or
-      "share" personal information as those terms are defined under California's CCPA/CPRA or
-      comparable U.S. state privacy laws.
+      NUMIA does not operate servers and we do not collect personal information ourselves. We do
+      not sell personal information for money. However, when advertising is personalised — that
+      is, when you have allowed tracking on iOS or have not opted out of ads personalisation on
+      Android — your advertising identifier may be shared with advertising partners for
+      cross-context behavioural advertising, which California's CCPA/CPRA and comparable U.S.
+      state laws treat as "sharing".
+    </p>
+    <p style="margin-top:12px">
+      You can stop that at any time, and it takes effect immediately: decline (or later revoke)
+      the iOS tracking prompt described in section 3, or use the Android controls in section 5.
     </p>
     <p style="margin-top:10px">
       Residents of California and other U.S. states retain the right to know, delete, opt out, and
@@ -198,7 +224,7 @@
     <h2>11. Third-Party Services</h2>
     <p>The App integrates the following third-party services:</p>
     <ul>
-      <li><strong>Yandex Advertising Network</strong> – <a href="https://yandex.com/legal/confidential/" target="_blank">Yandex Privacy Policy</a></li>
+      <li><strong>Appodeal</strong> – <a href="https://www.appodeal.com/privacy-policy/" target="_blank">Appodeal Privacy Policy</a></li>
       <li><strong>Apple In-App Purchase</strong> (iOS) – <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a></li>
       <li><strong>Google Play Billing</strong> (Android) – <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
       <li><strong>Apple Game Center</strong> (iOS, optional leaderboard) – <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a></li>
